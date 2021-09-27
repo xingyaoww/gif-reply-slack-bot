@@ -57,4 +57,6 @@ Proceedings of the Findings of the 2021 Conference on Empirical Methods in Natur
 ```
 You can read all about this project, data, model, etc in the exciting PDF technical report _or_ in the general-audience [Imgur post](https://imgur.com/gallery/G0oSrLV) that goes into more detail than it probaly should. 
 
+The core technology for the Slack App's model is published in [this repo](https://github.com/xingyaoww/gif-reply). Please do not use that repository for finding bugs in the Slack App because we will get confused and it will take us longer to figure out what you're talking about (though we want to). But you can check that out repo if you're curious how all this magic technology works.
+
 If you are an academic who for whatever reason needs to mention this project in your paper, please cite the above so that Xingyao will get more citations and go on to be a successful highly-cited researcher.
