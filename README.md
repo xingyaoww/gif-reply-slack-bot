@@ -12,27 +12,27 @@ leading to a more entertaining and gif-filled Slack workspace.
 
 ## How to Install the Slack App
 
-To install the Slack App.... [details here]
-
 ### Add the app to your work space
-1. Launch your Slack workspace
-2. Go to Setting &amp; administration -> Manage apps (this will probably open a browser)
-3. ????
+
+Click the bottom below, or use the url [here](https://slack.com/oauth/v2/authorize?client_id=310336506131.1931634875367&scope=app_mentions:read,channels:history,channels:read,chat:write,commands,emoji:read,groups:history,groups:read,reactions:read&user_scope=).
+
+<a href="https://slack.com/oauth/v2/authorize?client_id=310336506131.1931634875367&scope=app_mentions:read,channels:history,channels:read,chat:write,commands,emoji:read,groups:history,groups:read,reactions:read&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
 
 ### Add the app to a particular channel
 
 Once you have the app installed in your workspace, you can add it channels in which you want the slackbot to interact.
 
-1. Either (1) right click on channel name -> Open channel details, or (2) left click on channle and click the down-carrot at the top by its name
-2. Click the Integrations ta
-3. In the Apps box, click Add apps
+1. Either (1) right click on channel name -> Open channel details, or (2) left click on channel and click the down-carrot at the top by its name
+2. Click the "Integrations" tab
+3. Click "Add an app", and then add "Pepe the Gif Bot"
 
 ### Configuring the slackbot itself
 
 The app has several models of interacting:
-* Reply to all comments
-* Reply to only the top-level comments (but not replies to these comments in threads)
-* Reply only when then `gif
+- on-demand mode (`/pepe-on-demand` command): Pepe will only reply to messages that mention @Pepe the Gif Bot.
+- all-messages mode (`/pepe-all-messages` command): Pepe will reply to every message in this channel.
+- top-messages mode (`/pepe-top-messages` command): Pepe will only reply to the first message in a thread, but will not reply to subsequent message in a thread.
+
 
 # Important notes
 
@@ -52,9 +52,14 @@ If you running into issues, we're happy to help. We run all of the support for t
 
 This project is based on work described in 
 ```
-Xingyao Wang and David Jurgens. An Animated Picture Says at Least a Thousand Words: Selecting Gif-based Replies in Multimodal Dialog.
-Proceedings of the Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (Findings of EMNLP). 
+@inproceedings{
+  author = {Wang, Xingyao and Jurgens, David},
+  year = 2021,
+  title = {{An Animated Picture Says at Least a Thousand Words: Selecting Gif-based Replies in Multimodal Dialog}},
+  booktitle = {Proceedings of the Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (Findings of EMNLP)}
+}  
 ```
+
 You can read all about this project, data, model, etc in the [exciting PDF technical report]((https://arxiv.org/abs/2109.12212)) _or_ in the general-audience [Imgur post](https://imgur.com/gallery/G0oSrLV) that goes into more detail than it probaly should. 
 
 The core technology for the Slack App's model is published in [this repo](https://github.com/xingyaoww/gif-reply). Please do not use that repository for finding bugs in the Slack App because we will get confused and it will take us longer to figure out what you're talking about (though we want to). But you can check that out repo if you're curious how all this magic technology works.
