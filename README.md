@@ -60,7 +60,7 @@ This project is based on work described in
 }  
 ```
 
-You can read all about this project, data, model, etc in the [exciting PDF technical report]((https://arxiv.org/abs/2109.12212)) _or_ in the general-audience [Imgur post](https://imgur.com/gallery/G0oSrLV) that goes into more detail than it probaly should. 
+You can read all about this project, data, model, etc in the [exciting PDF technical report](https://arxiv.org/abs/2109.12212) _or_ in the general-audience [Imgur post](https://imgur.com/gallery/G0oSrLV) that goes into more detail than it probaly should. 
 
 The core technology for the Slack App's model is published in [this repo](https://github.com/xingyaoww/gif-reply). Please do not use that repository for finding bugs in the Slack App because we will get confused and it will take us longer to figure out what you're talking about (though we want to). But you can check that out repo if you're curious how all this magic technology works.
 
