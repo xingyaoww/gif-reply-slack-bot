@@ -1,4 +1,4 @@
-# Gif Reply Slack App
+# Pepe the Gif Reply Slack App
 
 Do you like reaction gifs? Do you use Slack too? Do you sometimes that people would reply to your 
 comments with reaction gifs too?? If so, then this Slack App for you. Based upon the award-winning advanced NLP
