@@ -29,9 +29,9 @@ Once you have the app installed in your workspace, you can add it channels in wh
 ### Configuring the slackbot itself
 
 The app has several models of interacting:
+- top-messages mode (`/pepe-top-messages` command): Pepe will only reply to the first message in a thread, but will not reply to subsequent message in a thread. This is the default mode Pepe starts in.
 - on-demand mode (`/pepe-on-demand` command): Pepe will only reply to messages that mention @Pepe the Gif Bot.
 - all-messages mode (`/pepe-all-messages` command): Pepe will reply to every message in this channel.
-- top-messages mode (`/pepe-top-messages` command): Pepe will only reply to the first message in a thread, but will not reply to subsequent message in a thread.
 
 
 # Important notes
